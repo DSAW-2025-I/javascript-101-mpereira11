@@ -63,7 +63,7 @@ function countVowels(str) {
     let contadorV = 0;
 
     for (let i = 0; i < str.length; i++) {
-      if (vocales.includes(arr[i])) {
+      if (vocales.includes(str[i])) {
         contadorV++;
       }
     }
